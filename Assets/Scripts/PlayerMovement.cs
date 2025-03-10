@@ -41,4 +41,9 @@ public class PlayerMovement : MonoBehaviour
         jumpVec = new Vector3(0f, 1f, 0f) * JumpForce * 2;
         rb.AddForce(jumpVec, ForceMode.Impulse);
     }
+
+    public void PlayerRotate(InputAction.CallbackContext context)
+    {
+
+    }
 }
