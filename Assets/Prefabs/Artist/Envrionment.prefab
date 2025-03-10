@@ -309,7 +309,7 @@ Transform:
   m_GameObject: {fileID: 1839595483601632672}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.370887, y: -4.597975, z: -8.214909}
+  m_LocalPosition: {x: 10.370887, y: -5.64, z: -8.214909}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -494,7 +494,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 4.233, y: 4.233, z: 4.233}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 9146248610412096917}
@@ -523,7 +523,7 @@ MonoBehaviour:
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_UseGeometry: 0
   m_DefaultArea: 0
   m_GenerateLinks: 0
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 6bb05fa3b058b6142920e9b8c261dd51, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 51c4b591650dc2f4b81f926ed512558f, type: 2}
   m_BuildHeightMesh: 0
 --- !u!114 &5333895377718211102
 MonoBehaviour:
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_SerializedVersion: 1
   m_AgentTypeID: 0
   m_StartPoint: {x: 3.89, y: 0, z: 4.76}
-  m_EndPoint: {x: 20.2, y: 10.52, z: 18.07}
+  m_EndPoint: {x: 24.8, y: 13.5, z: 22.5}
   m_StartTransform: {fileID: 0}
   m_EndTransform: {fileID: 0}
   m_Activated: 1
@@ -575,8 +575,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedVersion: 1
   m_AgentTypeID: 0
-  m_StartPoint: {x: 18.51, y: 10.4, z: 18.71}
-  m_EndPoint: {x: -13.9, y: 10.29, z: 0.62}
+  m_StartPoint: {x: 25, y: 13.1, z: 25.1}
+  m_EndPoint: {x: -19.7, y: 14.7, z: 1.71}
   m_StartTransform: {fileID: 0}
   m_EndTransform: {fileID: 0}
   m_Activated: 1
@@ -600,8 +600,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedVersion: 1
   m_AgentTypeID: 0
-  m_StartPoint: {x: -13.34, y: 10.92, z: 1.57}
-  m_EndPoint: {x: -16.8, y: 24.7, z: -5.98}
+  m_StartPoint: {x: -19.7, y: 14.7, z: 1.71}
+  m_EndPoint: {x: -12.7, y: 32.4, z: -17.6}
   m_StartTransform: {fileID: 0}
   m_EndTransform: {fileID: 0}
   m_Activated: 1
@@ -625,8 +625,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedVersion: 1
   m_AgentTypeID: 0
-  m_StartPoint: {x: -11.49, y: 24.74, z: -11.1}
-  m_EndPoint: {x: 21.1, y: 15.89, z: -9.34}
+  m_StartPoint: {x: -12.7, y: 32.4, z: -17.6}
+  m_EndPoint: {x: 31, y: 22.8, z: -13.8}
   m_StartTransform: {fileID: 0}
   m_EndTransform: {fileID: 0}
   m_Activated: 1
@@ -2143,11 +2143,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f6301a78d7d4e46338a4d9c94a456de9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.566091
+      value: 10.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f6301a78d7d4e46338a4d9c94a456de9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.393561
+      value: 8.59
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f6301a78d7d4e46338a4d9c94a456de9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2665,7 +2665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6061407297926088633, guid: 17fa891bdbedf7c4597f254dad531ab2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.7535615
+      value: 6.15
       objectReference: {fileID: 0}
     - target: {fileID: 6061407297926088633, guid: 17fa891bdbedf7c4597f254dad531ab2, type: 3}
       propertyPath: m_LocalPosition.z
