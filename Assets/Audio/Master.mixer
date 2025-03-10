@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-1510998512793118627
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 932a756400344d445ac1c6b685dfc043
+  m_EffectName: Attenuation
+  m_MixLevel: c5c7e5175d68d8d4a92e45bd9b1a943a
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -15,11 +29,14 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 718757bd1c5e9a44790430b1f0b2aa1f
+    name: MasterVol
   m_AudioMixerGroupViews:
   - guids:
     - 378db32b5a740ba4eb4c10fe65e88d39
     - 9b7aca165835402408854e4b8dc18745
+    - 532ec3beea683644bab000ab22fc9cf6
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -34,6 +51,7 @@ AudioMixerGroupController:
   m_GroupID: 378db32b5a740ba4eb4c10fe65e88d39
   m_Children:
   - {fileID: 3924604425143601694}
+  - {fileID: 6488610832395229029}
   m_Volume: 718757bd1c5e9a44790430b1f0b2aa1f
   m_Pitch: 23fb3e58370185e49983ac4c6ec4d95d
   m_Send: 00000000000000000000000000000000
@@ -66,7 +84,9 @@ AudioMixerSnapshotController:
   m_Name: Snapshot
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: a3b2d6dc4488b4847980e31ceee5beec
-  m_FloatValues: {}
+  m_FloatValues:
+    23fb3e58370185e49983ac4c6ec4d95d: 1
+    718757bd1c5e9a44790430b1f0b2aa1f: 6.1
   m_TransitionOverrides: {}
 --- !u!243 &3924604425143601694
 AudioMixerGroupController:
@@ -74,7 +94,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Base
+  m_Name: Steps
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 9b7aca165835402408854e4b8dc18745
   m_Children: []
@@ -101,3 +121,22 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!243 &6488610832395229029
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Jump
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 532ec3beea683644bab000ab22fc9cf6
+  m_Children: []
+  m_Volume: 88b53a4d789308d4e873d8e58410c4e4
+  m_Pitch: 5d4f3cb5fb836cb48b03680b7ec2606e
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -1510998512793118627}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
