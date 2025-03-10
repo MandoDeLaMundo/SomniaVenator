@@ -7,13 +7,13 @@ public class DisapearingPlatform : MonoBehaviour
     public float activateTimer = 0;
     public float deactivateTimer = 0;
     public MeshRenderer meshRender;
-    public BoxCollider boxCollider;
+    public MeshCollider meshCollider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
         isTriggered = false;
         meshRender = GetComponent<MeshRenderer>();
-        boxCollider = GetComponent<BoxCollider>();
+        meshCollider = GetComponent<MeshCollider>();
     }
     void Start()
     {
@@ -29,7 +29,7 @@ public class DisapearingPlatform : MonoBehaviour
             if (activateTimer <= 0)
             {
                 meshRender.enabled = false;
-                boxCollider.enabled = false;
+                meshCollider.enabled = false;
                 deactivateTimer = 3.0f;
                 isRegening = true;
                 isTriggered = false;
@@ -41,7 +41,7 @@ public class DisapearingPlatform : MonoBehaviour
             if (deactivateTimer <= 0)
             {
                 meshRender.enabled = true;
-                boxCollider.enabled = true;
+                meshCollider.enabled = true;
                 gameObject.SetActive(true);
                 isRegening = false;
             }
