@@ -16,6 +16,8 @@ in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2025 Audiokinetic Inc.
 *******************************************************************************/
 
+using System;
+
 /// @brief Contains C# functions exposed from the Wwise C++ API.
 /// 
 /// The AkSoundEngine class contains functions converted to C# from the following C++ namespaces: 
@@ -1214,5 +1216,18 @@ public partial class AkUnitySoundEngine
 }
 
 [System.Obsolete(AkUnitySoundEngine.Deprecation_2024_1_0)]
-public class AkSoundEngine : AkUnitySoundEngine {}
+public class AkSoundEngine : AkUnitySoundEngine
+{
+    public static object AkLoadingFlags;
+
+    public static void LoadBank(string v, object , object value)
+    {
+        throw new NotImplementedException();
+    }
+
+    public static object LoadBank(string v, object @default)
+    {
+        throw new NotImplementedException();
+    }
+}
 #endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
