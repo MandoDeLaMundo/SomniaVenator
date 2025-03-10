@@ -46,6 +46,9 @@ public class PlayerMovement : MonoBehaviour
         Camera.main.transform.rotation = Quaternion.Euler(yRot, xRot, 0);
         transform.rotation = Quaternion.Euler(0, xRot, 0);
 
+        if(transform.position.y <= -20) {
+            transform.position = new Vector3(0, 10, 0);
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
