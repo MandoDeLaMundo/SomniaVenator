@@ -70,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
     public void PlayerRotate(InputAction.CallbackContext context)
     {
         Vector2 input = context.ReadValue<Vector2>();
+        
         // float x = input.x * HoriRotSpeed;
         // //float y = input.y * VertRotSpeed;
         // RotVec = new Vector3(-0, x, 0);
@@ -78,9 +79,9 @@ public class PlayerMovement : MonoBehaviour
         //float y2 = input.y * VertRotSpeed;
         //CamVec = new Vector3(-y2, 0, 0);
 
-        xRot += input.x * 5f * Time.deltaTime;
+        xRot += input.x * 10f * Time.deltaTime;
         yRot += -input.y * 5f * Time.deltaTime;
-        yRot = Mathf.Clamp(yRot, -30, 30);
+        yRot = Mathf.Clamp(yRot, -10, 30);
     }
     private void OnCollisionEnter(Collision collision)
     {
