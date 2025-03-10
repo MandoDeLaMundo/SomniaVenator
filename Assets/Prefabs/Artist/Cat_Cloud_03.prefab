@@ -26,15 +26,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d5eac48370b7440f689c0facf540f0d3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.19466686
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d5eac48370b7440f689c0facf540f0d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d5eac48370b7440f689c0facf540f0d3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.43694496
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d5eac48370b7440f689c0facf540f0d3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -122,14 +122,15 @@ MonoBehaviour:
   navMeshAgent: {fileID: 0}
   destination: {x: 0, y: 0, z: 0}
   movePoints:
-  - {x: 20, y: 12, z: 17}
-  - {x: -13.5, y: 12, z: 1}
-  - {x: -9.66, y: 23.43, z: -12.41}
-  - {x: 24, y: 17, z: -10}
+  - {x: 28.27, y: 14, z: 57.79}
+  - {x: -20.31, y: 15.64, z: 1.46}
+  - {x: -13.32, y: 33.32, z: -17.22}
+  - {x: 117.58, y: 23.16, z: -13.97}
   movePointTracker: 0
   distanceFromDestination: 0
   canMove: 1
-  star: {fileID: 6707463633824281133, guid: 08ae3296ef95bae4db06f3fb8921834b, type: 3}
+  star: {fileID: 5586782667325463930, guid: 764694188b6204b869aa6c40a4fea4d0, type: 3}
+  mCatCloud: {fileID: 9203230337570953989, guid: b65b2f023eb38d940a97f2feff4da166, type: 3}
 --- !u!65 &5928097395051178232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -149,8 +150,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 19.292383, y: 12.1861925, z: 16.38379}
-  m_Center: {x: 1.0502789, y: 0.43613434, z: 0.10062575}
+  m_Size: {x: 24.703278, y: 12.1861925, z: 22.723007}
+  m_Center: {x: 1.3635778, y: 0.43613434, z: 0.11838853}
 --- !u!195 &8473285756667938216
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -161,7 +162,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
