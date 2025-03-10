@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 RotVec;
     Vector3 CamVec;
     public float Speed = 12.5f;
-    public float JumpForce = 1.6f;
+    public float JumpForce = 10f;
     //public float HoriRotSpeed = 2.0f;
     //public float VertRotSpeed = 2.0f;
     public Rigidbody rb;
