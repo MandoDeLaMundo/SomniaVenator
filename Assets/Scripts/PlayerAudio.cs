@@ -10,7 +10,7 @@ public class PlayerAudio : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        mJump.Play();
     }
 
     // Update is called once per frame
@@ -48,7 +48,7 @@ public class PlayerAudio : MonoBehaviour
         }
         else
         {
-            //mJump.Stop();
+            mJump.Stop();
         }
     }
 }
