@@ -37,11 +37,8 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
 
-        if (moveDir != Vector3.zero) {
-            moveDir.Normalize();
-            transform.localPosition += transform.forward * moveDir.z * Speed * Time.deltaTime;
-            transform.localPosition += transform.right * moveDir.x * Speed * Time.deltaTime;
-        }
+       
+        
         //if (RotVec != Vector3.zero) {
         //    RotVec.Normalize();
         //    transform.Rotate(RotVec * 3.5f, Space.World);
@@ -51,9 +48,15 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        
         Camera.main.transform.rotation = Quaternion.Euler(yRot, xRot, 0);
         transform.rotation = Quaternion.Euler(0, xRot, 0);
+
+        if (moveDir != Vector3.zero) {
+            moveDir.Normalize();
+            transform.localPosition += transform.forward * moveDir.z * Speed * Time.deltaTime;
+            transform.localPosition += transform.right * moveDir.x * Speed * Time.deltaTime;
+        }
+        
 
         if (transform.position.y <= -20) {
             transform.position = new Vector3(0, 10, 0);
@@ -95,8 +98,8 @@ public class PlayerMovement : MonoBehaviour
         //float y2 = input.y * VertRotSpeed;
         //CamVec = new Vector3(-y2, 0, 0);
 
-        xRot += input.x * 10f * Time.deltaTime;
-        yRot += -input.y * 5f * Time.deltaTime;
+        xRot += input.x * Speed * Time.deltaTime;
+        yRot += -input.y * Speed * Time.deltaTime;
         yRot = Mathf.Clamp(yRot, -10, 30);
     }
     private void OnCollisionEnter(Collision collision)
