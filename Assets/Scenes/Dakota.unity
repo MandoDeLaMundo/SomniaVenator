@@ -455,6 +455,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4451308866663253834, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
+      propertyPath: landed
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -4451308866663253834, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
+      propertyPath: JumpForce
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299706524043719078, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4142842486838027879, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.37
@@ -498,6 +510,26 @@ PrefabInstance:
     - target: {fileID: 5127315904711312877, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227349744754845877, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227349744754845877, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227349744754845877, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9997792
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227349744754845877, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.02101224
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227349744754845877, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.408
       objectReference: {fileID: 0}
     - target: {fileID: 7515739827452293673, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
       propertyPath: m_UseGravity
