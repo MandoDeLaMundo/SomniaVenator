@@ -729,7 +729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stopwatchActive: 1
   currentTime: 0
-  currentTimeText: {fileID: 0}
+  currentTimeText: {fileID: 1756322257}
 --- !u!4 &1598149744
 Transform:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ public class DreamBehavior : MonoBehaviour
     public bool canMove = true;
     public GameObject star;
     public AudioSource mCatCloud;
+    [SerializeField] private Stopwatch stopwatchScript;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -63,6 +64,7 @@ public class DreamBehavior : MonoBehaviour
             else
             {
                 Debug.Log("You Win");
+                stopwatchScript.StopTimer();
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }

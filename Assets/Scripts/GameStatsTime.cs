@@ -20,7 +20,7 @@ public class GameStatsStarsStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        finalTime = stopwatchScript.currentTime;
+        finalTime = stopwatchScript.GetTime();
         TimeSpan time = TimeSpan.FromSeconds(finalTime);
         totalTimeText.text = "Time: " + time.ToString(@"mm\:ss\:fff");
     }
