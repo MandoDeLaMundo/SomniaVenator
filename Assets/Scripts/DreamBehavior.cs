@@ -65,7 +65,6 @@ public class DreamBehavior : MonoBehaviour
             {
                 Debug.Log("You Win");
                 stopwatchScript.StopTimer();
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
     }
