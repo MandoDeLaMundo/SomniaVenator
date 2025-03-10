@@ -1,6 +1,8 @@
 using UnityEngine;
 using System;
 using UnityEngine.InputSystem;
+using Unity.VisualScripting;
+using System.Net;
 
 public class SoundScript : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class SoundScript : MonoBehaviour
     //public AudioClip footsteps;
     public AudioSource mJumpSource;
     //[SerializeField] private PlayerMovement moveSound;
+    
     public void Move(InputAction.CallbackContext context)
     {
         if (context.performed && !mWalkSource.isPlaying)
@@ -35,11 +38,14 @@ public class SoundScript : MonoBehaviour
         }
         else if (context.performed && mJumpSource.isPlaying)
         {
-
+            
         }
         else
         {
             mJumpSource.Stop();
         }
     }
+
+
+
 }
