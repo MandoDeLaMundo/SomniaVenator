@@ -9,6 +9,7 @@ public class DreamBehavior : MonoBehaviour
     public int movePointTracker = 0;
     public float distanceFromDestination;
     public bool canMove = true;
+    public GameObject star;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private void Awake()
@@ -25,7 +26,7 @@ public class DreamBehavior : MonoBehaviour
     void Update()
     {
         distanceFromDestination = (transform.position - destination).magnitude;
-        if (distanceFromDestination <= 1)
+        if (distanceFromDestination <= 1.2)
         {
             canMove = true;
         }
@@ -33,9 +34,14 @@ public class DreamBehavior : MonoBehaviour
 
     void SetNewDestination()
     {
+        if (movePointTracker != 0)
+        {
+            Instantiate(star, destination, Quaternion.identity);
+        }
         destination = movePoints[movePointTracker];
         navMeshAgent.SetDestination(destination);
         movePointTracker++;
+        
     }
 
     public void OnTriggerEnter(Collider other)
