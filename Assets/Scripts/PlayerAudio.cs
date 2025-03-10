@@ -10,19 +10,23 @@ public class PlayerAudio : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        mJump.Play();
+    
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (!mSteps.isPlaying)
+        {
+            mSteps.Play();
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
     {
         if (context.performed && mIsWalking == false)
         {
+            mSteps.volume = 100;
             mSteps.Play();
             mIsWalking = true;
             Debug.Log("Walking with 1 sound");
