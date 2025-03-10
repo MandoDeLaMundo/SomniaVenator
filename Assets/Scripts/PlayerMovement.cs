@@ -50,7 +50,8 @@ public class PlayerMovement : MonoBehaviour
     public void PlayerRotate(InputAction.CallbackContext context)
     {
         Vector2 input = context.ReadValue<Vector2>();
-        HoriRotSpeed = input.x;
-        VertRotSpeed = input.y;
+        float x = input.x * HoriRotSpeed;
+        float y = input.y * VertRotSpeed;
+        RotVec = new Vector3(y, x, 0);
     }
 }
