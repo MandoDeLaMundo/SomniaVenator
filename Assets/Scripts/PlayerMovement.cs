@@ -23,6 +23,9 @@ public class PlayerMovement : MonoBehaviour
     float yRot;
     bool onGround = true;
 
+    public AudioSource steps;
+    public AudioSource jump;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,26 +33,37 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
+   
     void FixedUpdate()
     {
+
         if (moveDir != Vector3.zero) {
             moveDir.Normalize();
             transform.localPosition += transform.forward * moveDir.z * Speed * Time.deltaTime;
             transform.localPosition += transform.right * moveDir.x * Speed * Time.deltaTime;
-
         }
         //if (RotVec != Vector3.zero) {
         //    RotVec.Normalize();
         //    transform.Rotate(RotVec * 3.5f, Space.World);
         //    Camera.main.transform.RotateAround(CamVec,);
         //}
+
+    }
+    void Update()
+    {
+        
         Camera.main.transform.rotation = Quaternion.Euler(yRot, xRot, 0);
         transform.rotation = Quaternion.Euler(0, xRot, 0);
 
+        if (transform.position.y <= -20) {
+            transform.position = new Vector3(0, 10, 0);
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
     {
+        //steps.enabled = true;
+        steps.Play();
         Vector2 input = context.ReadValue<Vector2>();
 
         if (context.performed) {
@@ -61,6 +75,8 @@ public class PlayerMovement : MonoBehaviour
     public void Jump(InputAction.CallbackContext context)
     {
         if (onGround) {
+            //jump.enabled = true;
+            jump.Play();
             onGround = false;
             jumpVec = new Vector3(0f, 1f, 0f) * JumpForce * 2;
             rb.AddForce(jumpVec, ForceMode.Impulse);
