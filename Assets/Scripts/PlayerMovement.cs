@@ -1,4 +1,5 @@
 using System.Runtime.CompilerServices;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -16,6 +17,9 @@ public class PlayerMovement : MonoBehaviour
     public float VertRotSpeed = 2.0f;
     public Rigidbody rb;
 
+    public float x;
+    public float y;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         moveDir.Normalize();
         rb.MovePosition(transform.position + moveDir * Speed * Time.deltaTime);
 
-        transform.localRotation.SetLookRotation(RotVec);
+        Quaternion.Euler(RotVec);
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -50,8 +54,8 @@ public class PlayerMovement : MonoBehaviour
     public void PlayerRotate(InputAction.CallbackContext context)
     {
         Vector2 input = context.ReadValue<Vector2>();
-        float x = input.x * HoriRotSpeed;
-        float y = input.y * VertRotSpeed;
+         x = input.x * HoriRotSpeed;
+         y = input.y * VertRotSpeed;
         RotVec = new Vector3(y, x, 0);
     }
 }
