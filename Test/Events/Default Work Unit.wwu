@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DB726539-2AE9-451A-9C2D-361C25098FCC}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DB726539-2AE9-451A-9C2D-361C25098FCC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_566093__dundalkkirk__landing_softsurface" ID="{2895DB14-73ED-44E2-9C86-879B6E3F4B33}">
+					<ChildrenList>
+						<Action Name="" ID="{06EC0288-CF2D-4226-B1C1-C35F6FF62967}" ShortID="32501672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="566093__dundalkkirk__landing-softsurface" ID="{EF4DB1E1-906D-4649-9874-5CB4B9CBA1B6}" WorkUnitID="{8CE70C20-0F50-4E05-8D4F-82203AB9EF99}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_566093__dundalkkirk__landing_softsurface" ID="{04170A1E-9BC5-47B2-A4D9-24B0C779AA91}">
+					<ChildrenList>
+						<Action Name="" ID="{4990059E-CEA5-416F-8920-F2A604303E4E}" ShortID="704581961">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="566093__dundalkkirk__landing-softsurface" ID="{EF4DB1E1-906D-4649-9874-5CB4B9CBA1B6}" WorkUnitID="{8CE70C20-0F50-4E05-8D4F-82203AB9EF99}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump" ID="{08916C39-8FCE-4982-AADD-680EDA7D53F4}">
+					<ChildrenList>
+						<Action Name="" ID="{531CCE3D-FB37-4485-9E06-79C6FD813D51}" ShortID="823190865">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{BD9D6F13-EBF8-4FB3-818B-BBF8FBA4B2A8}" WorkUnitID="{8CE70C20-0F50-4E05-8D4F-82203AB9EF99}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Jump" ID="{E0FEB778-5A52-4A34-8CF7-A95F467CC63D}">
+					<ChildrenList>
+						<Action Name="" ID="{CEA76CE2-E07B-4104-9BA9-380862B75C23}" ShortID="1007595934">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{BD9D6F13-EBF8-4FB3-818B-BBF8FBA4B2A8}" WorkUnitID="{8CE70C20-0F50-4E05-8D4F-82203AB9EF99}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

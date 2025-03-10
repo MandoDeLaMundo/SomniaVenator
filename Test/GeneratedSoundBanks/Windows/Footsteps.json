@@ -1,0 +1,87 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2385628198",
+    "Type": "User",
+    "GUID": "{55DBCA9A-E186-4A66-B3BA-1D2A4C8F99A3}",
+    "Language": "SFX",
+    "Hash": "{D62E05DB-DBC1-F2B2-DC8F-EB365ADDDB57}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Footsteps",
+    "ShortName": "Footsteps",
+    "Path": "Footsteps.bnk",
+    "Media": [
+     {
+      "Id": "8930899",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Jump.wav",
+      "CachePath": "80/{806F218D-163C-0C26-6582-E83EF2A57DBA}.wem"
+     },
+     {
+      "Id": "1013332635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "566093__dundalkkirk__landing-softsurface.wav",
+      "CachePath": "34/{342ACB4B-073D-3A4A-F74A-A36E264DAC0F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4219306594",
+      "Name": "Play_566093__dundalkkirk__landing_softsurface",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_566093__dundalkkirk__landing_softsurface",
+      "GUID": "{2895DB14-73ED-44E2-9C86-879B6E3F4B33}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1013332635"
+       }
+      ]
+     },
+     {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump",
+      "GUID": "{08916C39-8FCE-4982-AADD-680EDA7D53F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.07658333",
+      "DurationMax": "0.07658333",
+      "MediaRefs": [
+       {
+        "Id": "8930899"
+       }
+      ]
+     },
+     {
+      "Id": "1906578348",
+      "Name": "Stop_566093__dundalkkirk__landing_softsurface",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_566093__dundalkkirk__landing_softsurface",
+      "GUID": "{04170A1E-9BC5-47B2-A4D9-24B0C779AA91}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1683662908",
+      "Name": "Stop_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Jump",
+      "GUID": "{E0FEB778-5A52-4A34-8CF7-A95F467CC63D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{78BE5202-1341-13F9-AE71-9EF07E63FB41}"
+ }
+}
