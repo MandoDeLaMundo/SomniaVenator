@@ -9,8 +9,11 @@ public class PlayerMovement : MonoBehaviour
     //Vector3 moveDir;
     public Vector3 moveDir;
     Vector3 jumpVec;
+    Vector3 RotVec;
     public float Speed = 12.5f;
     public float JumpForce = 1.6f;
+    public float HoriRotSpeed = 2.0f;
+    public float VertRotSpeed = 2.0f;
     public Rigidbody rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
     {
         moveDir.Normalize();
         rb.MovePosition(transform.position + moveDir * Speed * Time.deltaTime);
+
+        transform.localRotation.SetLookRotation(RotVec);
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -44,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void PlayerRotate(InputAction.CallbackContext context)
     {
-
+        Vector2 input = context.ReadValue<Vector2>();
+        HoriRotSpeed = input.x;
+        VertRotSpeed = input.y;
     }
 }

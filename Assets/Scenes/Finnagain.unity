@@ -267,11 +267,11 @@ PrefabInstance:
     - target: {fileID: 1739509878842649598, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1055234816}
+      objectReference: {fileID: 1055234825}
     - target: {fileID: 1739509878842649598, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
       propertyPath: m_ActionEvents.Array.data[5].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1055234816}
+      objectReference: {fileID: 1055234825}
     - target: {fileID: 1739509878842649598, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -354,7 +354,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5127315904711312877, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1055234816}
+      addedObject: {fileID: 1055234825}
     - targetCorrespondingSourceObject: {fileID: 5127315904711312877, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1055234817}
@@ -618,35 +618,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5127315904711312877, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
   m_PrefabInstance: {fileID: 250583121}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1055234816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1055234808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6248f9455296178428e1ce48fe277eb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mMoveEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 26879eb44fa9445429b9b0280d85e133, type: 2}
-  mStopEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 775556f0e5f1d4844adf41b3157c6384, type: 2}
-  mJumpEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 560715840dcff46459e9f0c7774857bb, type: 2}
-  mJumpStop:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 67f12f9fe1e9f144c8210ee670719c9c, type: 2}
-  mIsWalking: 0
 --- !u!114 &1055234817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -672,6 +643,35 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &1055234825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055234808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6248f9455296178428e1ce48fe277eb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMoveEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 897b9bb031ae29947b83f50f1fe99b9b, type: 2}
+  mStopEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0e572d123f573e547bfcd90711232108, type: 2}
+  mJumpEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 116720cd86dc01c4bac8ea4595fcbc07, type: 2}
+  mJumpStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 422933247ddc0594cb8956d39e04fbb7, type: 2}
+  mIsWalking: 0
 --- !u!1 &1526801133
 GameObject:
   m_ObjectHideFlags: 0
