@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     Vector3 moveDir;
+
     public float Speed;
     public Rigidbody rb;
 

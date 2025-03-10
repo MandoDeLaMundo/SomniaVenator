@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1906578348	Stop_566093__dundalkkirk__landing_softsurface			\Default Work Unit\Stop_566093__dundalkkirk__landing_softsurface	
+	4219306594	Play_566093__dundalkkirk__landing_softsurface			\Default Work Unit\Play_566093__dundalkkirk__landing_softsurface	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1013332635	566093__dundalkkirk__landing-softsurface	C:\Users\Drago\Documents\WwiseProjects\Test\.cache\53\{531202C3-DF44-4899-43B3-B1CA2399D0C5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\566093__dundalkkirk__landing-softsurface		39982
+
