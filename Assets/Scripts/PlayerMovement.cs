@@ -5,9 +5,15 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+<<<<<<< HEAD
     Vector3 moveDir;
 
+=======
+    public Vector3 moveDir;
+    Vector3 jumpVec;
+>>>>>>> SafetyDev
     public float Speed;
+    public float JumpForce;
     public Rigidbody rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -17,8 +23,9 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+        moveDir.Normalize();
         rb.MovePosition(transform.position + moveDir * Speed * Time.deltaTime);
     }
 
@@ -31,5 +38,10 @@ public class PlayerMovement : MonoBehaviour
             moveDir.z = input.y;
         }
         else moveDir = Vector3.zero;
+    }
+    public void Jump(InputAction.CallbackContext context)
+    {
+        jumpVec = new Vector3(0f, 1f, 0f);
+        rb.AddForce(jumpVec, ForceMode.Impulse);
     }
 }
