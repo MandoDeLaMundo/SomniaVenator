@@ -63,6 +63,7 @@ public class DreamBehavior : MonoBehaviour
             else
             {
                 Debug.Log("You Win");
+                SceneManager.LoadScene("EndGame");
             }
         }
     }
