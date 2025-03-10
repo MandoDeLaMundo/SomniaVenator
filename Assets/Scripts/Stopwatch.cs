@@ -5,7 +5,7 @@ using TMPro;
 
 public class Stopwatch : MonoBehaviour
 {
-    bool stopwatchActive = true;
+    public bool stopwatchActive = true;
     public float currentTime;
     public TextMeshProUGUI currentTimeText;
 
@@ -23,7 +23,7 @@ public class Stopwatch : MonoBehaviour
             currentTime = currentTime + Time.deltaTime;
 
             TimeSpan time = TimeSpan.FromSeconds(currentTime);
-            currentTimeText.text = time.ToString(@"mm\:ss\:fff");
+            currentTimeText.text = "Time: " + time.ToString(@"mm\:ss\:fff");
         }
     }
 
@@ -35,5 +35,10 @@ public class Stopwatch : MonoBehaviour
     public void StopTimer()
     {
         stopwatchActive = false;
+    }
+
+    public float GetTime()
+    {
+        return currentTime;
     }
 }
