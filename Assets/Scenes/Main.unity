@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Envrionment
       objectReference: {fileID: 0}
+    - target: {fileID: 3033317986027194984, guid: d02fdfbacb62e4f27a696e315b75e55b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4768861762909451557, guid: d02fdfbacb62e4f27a696e315b75e55b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -568,6 +572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2572158735226473149, guid: 5bfae09d81620c94f95eec44abda8e06, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 2952659386677841927, guid: 5bfae09d81620c94f95eec44abda8e06, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.45
@@ -847,6 +855,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4451308866663253834, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
+      propertyPath: JumpForce
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2067240036062116596, guid: fb94a411c1caad14a8a3cb042f4e3f0f, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -1172,6 +1184,10 @@ PrefabInstance:
     - target: {fileID: 2572158735226473149, guid: 5bfae09d81620c94f95eec44abda8e06, type: 3}
       propertyPath: m_Name
       value: Moving_platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 2572158735226473149, guid: 5bfae09d81620c94f95eec44abda8e06, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2952659386677841927, guid: 5bfae09d81620c94f95eec44abda8e06, type: 3}
       propertyPath: m_LocalPosition.x
