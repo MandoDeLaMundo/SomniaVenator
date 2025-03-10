@@ -29,15 +29,19 @@ public class DreamBehavior : MonoBehaviour
         if (distanceFromDestination <= 1.2)
         {
             canMove = true;
-            Instantiate(star, destination, Quaternion.identity);
         }
     }
 
     void SetNewDestination()
     {
+        if (movePointTracker != 0)
+        {
+            Instantiate(star, destination, Quaternion.identity);
+        }
         destination = movePoints[movePointTracker];
         navMeshAgent.SetDestination(destination);
         movePointTracker++;
+        
     }
 
     public void OnTriggerEnter(Collider other)
