@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class DreamBehavior : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class DreamBehavior : MonoBehaviour
     public float distanceFromDestination;
     public bool canMove = true;
     public GameObject star;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private void Awake()
@@ -56,6 +58,7 @@ public class DreamBehavior : MonoBehaviour
             else
             {
                 Debug.Log("You Win");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
     }
