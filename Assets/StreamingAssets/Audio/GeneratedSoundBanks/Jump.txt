@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	8930899	Jump	C:\Users\Drago\Documents\WwiseProjects\Test\.cache\80\{806F218D-163C-0C26-6582-E83EF2A57DBA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump		14800
+

@@ -6,7 +6,7 @@ public class DreamBehavior : MonoBehaviour
     public NavMeshAgent navMeshAgent;
     public Vector3 destination;
     public Vector3[] movePoints;
-    int movePointTracker = 0;
+    public int movePointTracker = 0;
     public float distanceFromDestination;
     public bool canMove = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -33,17 +33,24 @@ public class DreamBehavior : MonoBehaviour
 
     void SetNewDestination()
     {
-        movePointTracker++;
         destination = movePoints[movePointTracker];
         navMeshAgent.SetDestination(destination);
+        movePointTracker++;
     }
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            SetNewDestination();
-            canMove = false;
+            if (movePointTracker < 4)
+            {
+                SetNewDestination();
+                canMove = false;
+            }
+            else
+            {
+                Debug.Log("You Win");
+            }
         }
     }
 }

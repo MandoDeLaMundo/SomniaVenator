@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2385628198",
+    "Type": "User",
+    "GUID": "{55DBCA9A-E186-4A66-B3BA-1D2A4C8F99A3}",
+    "Language": "SFX",
+    "Hash": "{E6A48429-392C-544C-66BF-BE053FA2BC90}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Footsteps",
+    "ShortName": "Footsteps",
+    "Path": "Footsteps.bnk",
+    "Media": [
+     {
+      "Id": "1013332635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "566093__dundalkkirk__landing-softsurface.wav",
+      "CachePath": "53/{531202C3-DF44-4899-43B3-B1CA2399D0C5}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4219306594",
+      "Name": "Play_566093__dundalkkirk__landing_softsurface",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_566093__dundalkkirk__landing_softsurface",
+      "GUID": "{2895DB14-73ED-44E2-9C86-879B6E3F4B33}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1013332635"
+       }
+      ]
+     },
+     {
+      "Id": "1906578348",
+      "Name": "Stop_566093__dundalkkirk__landing_softsurface",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_566093__dundalkkirk__landing_softsurface",
+      "GUID": "{04170A1E-9BC5-47B2-A4D9-24B0C779AA91}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2C6DFD11-8B61-F270-BADF-9C7E8CD2C86B}"
+ }
+}

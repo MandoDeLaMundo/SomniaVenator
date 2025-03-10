@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+
+    //Vector3 moveDir;
     public Vector3 moveDir;
     Vector3 jumpVec;
     public float Speed;
