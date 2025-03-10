@@ -30,7 +30,7 @@ public class DisapearingPlatform : MonoBehaviour
             {
                 meshRender.enabled = false;
                 meshCollider.enabled = false;
-                deactivateTimer = 3.0f;
+                deactivateTimer = 2.0f;
                 isRegening = true;
                 isTriggered = false;
             }
@@ -52,7 +52,7 @@ public class DisapearingPlatform : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            activateTimer = 2.0f;
+            activateTimer = 1.0f;
             isTriggered = true;
         }
     }
