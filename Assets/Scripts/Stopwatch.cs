@@ -6,7 +6,7 @@ using TMPro;
 public class Stopwatch : MonoBehaviour
 {
     bool stopwatchActive = true;
-    float currentTime;
+    public float currentTime;
     public TextMeshProUGUI currentTimeText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
