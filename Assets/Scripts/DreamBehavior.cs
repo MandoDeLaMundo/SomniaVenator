@@ -11,6 +11,7 @@ public class DreamBehavior : MonoBehaviour
     public float distanceFromDestination;
     public bool canMove = true;
     public GameObject star;
+    [SerializeField] private Stopwatch stopwatchScript;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -58,6 +59,7 @@ public class DreamBehavior : MonoBehaviour
             else
             {
                 Debug.Log("You Win");
+                stopwatchScript.stopwatchActive = false;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }

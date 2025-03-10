@@ -453,37 +453,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!1 &478300886 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 292556810213347993, guid: d7a26db334734ee47abfd8cf00935af5, type: 3}
-  m_PrefabInstance: {fileID: 624893159}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &478300888 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7950859571049770510, guid: d7a26db334734ee47abfd8cf00935af5, type: 3}
-  m_PrefabInstance: {fileID: 624893159}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478300886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &478300893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478300886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d9b920cfb8bb944dae7902287f2d894, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreCounter: 0
-  currentScore: {fileID: 478300888}
-  checkStar: {fileID: 0}
 --- !u!1001 &590818968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -573,9 +542,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 870688707894528514, guid: d7a26db334734ee47abfd8cf00935af5, type: 3}
+      propertyPath: m_text
+      value: 'Time: 00:00:000'
+      objectReference: {fileID: 0}
     - target: {fileID: 1224911407611481504, guid: d7a26db334734ee47abfd8cf00935af5, type: 3}
       propertyPath: m_Name
       value: HUDCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623189745492210800, guid: d7a26db334734ee47abfd8cf00935af5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623189745492210800, guid: d7a26db334734ee47abfd8cf00935af5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -108.94
       objectReference: {fileID: 0}
     - target: {fileID: 3965415069273086513, guid: d7a26db334734ee47abfd8cf00935af5, type: 3}
       propertyPath: m_SizeDelta.x
@@ -674,12 +655,10 @@ PrefabInstance:
       value: 'Score Counter: 0'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 292556810213347993, guid: d7a26db334734ee47abfd8cf00935af5, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 292556810213347993, guid: d7a26db334734ee47abfd8cf00935af5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 478300893}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7a26db334734ee47abfd8cf00935af5, type: 3}
 --- !u!1001 &712580515
 PrefabInstance:

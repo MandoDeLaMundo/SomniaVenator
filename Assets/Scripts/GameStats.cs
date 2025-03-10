@@ -7,7 +7,6 @@ public class GameStats : MonoBehaviour
 {
     [SerializeField] private Stopwatch stopwatchScript;
 
-    public TextMeshProUGUI starsCollectedText;
     public TextMeshProUGUI timeLapseText;
 
     // Update is called once per frame

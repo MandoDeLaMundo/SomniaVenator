@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
-    public bool starDestroyed = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,12 +17,10 @@ public class Collectible : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
+        Debug.Log("OnTriggerEnter called with: " + other.name);
         if (other.gameObject.tag == "Player")
         {
-            starDestroyed = true;
             Destroy(gameObject);
-            Debug.Log("Star has been destroyed");
-            starDestroyed = false;
         }
     }
 }
