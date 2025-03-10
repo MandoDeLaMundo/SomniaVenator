@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.358346, y: 7.55, z: 4.1661587}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4285713, y: 1.4285713, z: 1.4285713}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -148,11 +148,15 @@ MonoBehaviour:
   navMeshAgent: {fileID: 0}
   destination: {x: 0, y: 0, z: 0}
   movePoints:
-  - {x: 43, y: 1, z: 77}
-  - {x: 90, y: 1, z: 22}
-  - {x: 54, y: 1, z: 61}
+  - {x: 20, y: 12, z: 17}
+  - {x: -13.5, y: 12, z: 1}
+  - {x: -9.66, y: 23.43, z: -12.41}
+  - {x: 24, y: 17, z: -10}
+  movePointTracker: 0
   distanceFromDestination: 0
   canMove: 1
+  star: {fileID: 6707463633824281133, guid: 08ae3296ef95bae4db06f3fb8921834b, type: 3}
+  mCatCloud: {fileID: 9203230337570953989, guid: b65b2f023eb38d940a97f2feff4da166, type: 3}
 --- !u!65 &2454694834514501101
 BoxCollider:
   m_ObjectHideFlags: 0

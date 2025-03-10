@@ -387,6 +387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaed57a11bba4ea41861306bbf1e7dc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stopwatchActive: 1
+  currentTime: 0
   currentTimeText: {fileID: 870688707894528514}
 --- !u!1 &3448007398894138688
 GameObject:

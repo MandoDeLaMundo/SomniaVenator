@@ -5,7 +5,7 @@ using TMPro;
 
 public class Stopwatch : MonoBehaviour
 {
-    bool stopwatchActive = true;
+    public bool stopwatchActive = true;
     public float currentTime;
     public TextMeshProUGUI currentTimeText;
 
