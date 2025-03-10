@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_566093__DUNDALKKIRK__LANDING_SOFTSURFACE = 4219306594U;
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID STOP_566093__DUNDALKKIRK__LANDING_SOFTSURFACE = 1906578348U;
+        static const AkUniqueID STOP_JUMP = 1683662908U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
