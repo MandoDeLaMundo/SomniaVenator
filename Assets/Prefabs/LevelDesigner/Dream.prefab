@@ -156,6 +156,7 @@ MonoBehaviour:
   distanceFromDestination: 0
   canMove: 1
   star: {fileID: 6707463633824281133, guid: 08ae3296ef95bae4db06f3fb8921834b, type: 3}
+  mCatCloud: {fileID: 9203230337570953989, guid: b65b2f023eb38d940a97f2feff4da166, type: 3}
 --- !u!65 &2454694834514501101
 BoxCollider:
   m_ObjectHideFlags: 0
