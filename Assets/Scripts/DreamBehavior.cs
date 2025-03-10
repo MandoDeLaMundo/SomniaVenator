@@ -32,7 +32,7 @@ public class DreamBehavior : MonoBehaviour
         if (distanceFromDestination <= 1.2)
         {
             canMove = true;
-            mCatCloud.Play();
+            mCatCloud.Pause();
             Debug.Log("Cat Cloud's Moving, Audio should be playing");
         }
     }
@@ -57,7 +57,7 @@ public class DreamBehavior : MonoBehaviour
             {
                 SetNewDestination();
                 canMove = false;
-                mCatCloud.Pause();
+                mCatCloud.Play();
                 Debug.Log("CatCloud Stops. No More Sounds.");
             }
             else
