@@ -2869,6 +2869,154 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6301a78d7d4e46338a4d9c94a456de9, type: 3}
   m_PrefabInstance: {fileID: 1473673561299911959}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2040444330269745696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9146248610412096917}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 23.09843
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 18.820818
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.599916
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6995878
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9825287
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.9237416
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.20765194
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.20765193
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.67592955
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6759295
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -145.845
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_Name
+      value: SomniaVenator_Tower_block_04
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+--- !u!4 &2007378601079293387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+  m_PrefabInstance: {fileID: 2040444330269745696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2145667995075896080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9146248610412096917}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 23.09843
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 18.820814
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.5999155
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0693699
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.00025
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.47971734
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.59456813
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.59456813
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3827386
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.3827385
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -65.541
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_Name
+      value: SomniaVenator_Tower_block_02
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+--- !u!4 &1894969606285624571 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+  m_PrefabInstance: {fileID: 2145667995075896080}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2150684354109046864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3148,6 +3296,80 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6301a78d7d4e46338a4d9c94a456de9, type: 3}
   m_PrefabInstance: {fileID: 2376559252271860478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2505109277979995190
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9146248610412096917}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 23.098433
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 18.820818
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.599917
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0964968
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.4485576
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.37120995
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4192245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.4192245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5694303
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.56943023
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -107.278
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_Name
+      value: SomniaVenator_Tower_block_03
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+--- !u!4 &2686774176587779037 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+  m_PrefabInstance: {fileID: 2505109277979995190}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2567057487774900451
 PrefabInstance:
@@ -3663,6 +3885,154 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6301a78d7d4e46338a4d9c94a456de9, type: 3}
   m_PrefabInstance: {fileID: 5069867979347991090}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5207215319715816628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9146248610412096917}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 23.098433
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 18.820822
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.599917
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.35693264
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4791286
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0779363
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.697659
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6976591
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.115203544
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.11520352
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -18.753
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_Name
+      value: SomniaVenator_Tower_block_01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+--- !u!4 &5749134937544409951 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+  m_PrefabInstance: {fileID: 5207215319715816628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5254442338951204186
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9146248610412096917}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 23.098434
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 18.820818
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.599916
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.47971755
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9825287
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.0408156
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.1738944
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.17389448
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.685391
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.68539095
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -208.473
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_Name
+      value: SomniaVenator_Tower_block_05
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+--- !u!4 &5719921217348627121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+  m_PrefabInstance: {fileID: 5254442338951204186}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6447470511946574708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3896,6 +4266,80 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6301a78d7d4e46338a4d9c94a456de9, type: 3}
   m_PrefabInstance: {fileID: 7685615582417189081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7851797246310881162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9146248610412096917}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 23.098433
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 18.820822
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.599916
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1150575
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9511187
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0442597
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.50082785
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.500828
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.49917072
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.49917078
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -270.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+      propertyPath: m_Name
+      value: SomniaVenator_Tower_block_06
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+--- !u!4 &7745512426962776161 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c03f0c1195a64fa092e8b761137482c, type: 3}
+  m_PrefabInstance: {fileID: 7851797246310881162}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7906946615802968809
 PrefabInstance:
@@ -4287,7 +4731,25 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 495399deba580435881b7cc06b8d346a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36ba22effc90e4af0801a353a7bbec32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5749134937544409951}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36ba22effc90e4af0801a353a7bbec32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1894969606285624571}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36ba22effc90e4af0801a353a7bbec32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2686774176587779037}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36ba22effc90e4af0801a353a7bbec32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2007378601079293387}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36ba22effc90e4af0801a353a7bbec32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5719921217348627121}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36ba22effc90e4af0801a353a7bbec32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7745512426962776161}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36ba22effc90e4af0801a353a7bbec32, type: 3}
 --- !u!4 &9146248610412096917 stripped
