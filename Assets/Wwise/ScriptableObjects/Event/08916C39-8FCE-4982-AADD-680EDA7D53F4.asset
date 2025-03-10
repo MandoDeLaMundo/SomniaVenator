@@ -15,5 +15,5 @@ MonoBehaviour:
   objectName: Play_Jump
   id: 3689126666
   guid: 08916C39-8FCE-4982-AADD-680EDA7D53F4
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1
   IsAutoBankLoaded: 0

@@ -331,8 +331,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 694666b75644844a884a7c3c2df0cd71
     GuidInternal: 
-    m_lastTime: -8584600541520445637
-    List: []
+    m_lastTime: -8584600405709258065
+    List:
+    - name: Footsteps
+      guid: 9acadb5586e1664ab3ba1d2a4c8f99a3
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 694666b75644844a884a7c3c2df0cd71
+      - ElementName: Footsteps
+        ObjectType: 7
+        guid: 9acadb5586e1664ab3ba1d2a4c8f99a3
+      Path: SoundBanks\Default Work Unit\Footsteps
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -345,8 +359,76 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 396572dbe92a1a459c2d361c25098fcc
     GuidInternal: 
-    m_lastTime: -8584600541519976294
-    List: []
+    m_lastTime: -8584600378176829086
+    List:
+    - name: Play_566093__dundalkkirk__landing_softsurface
+      guid: 14db9528ed73e2449c86879b6e3f4b33
+      id: 4219306594
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 396572dbe92a1a459c2d361c25098fcc
+      - ElementName: Play_566093__dundalkkirk__landing_softsurface
+        ObjectType: 3
+        guid: 14db9528ed73e2449c86879b6e3f4b33
+      Path: Events\Default Work Unit\Play_566093__dundalkkirk__landing_softsurface
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Jump
+      guid: 396c9108ce8f8249aadd680eda7d53f4
+      id: 3689126666
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 396572dbe92a1a459c2d361c25098fcc
+      - ElementName: Play_Jump
+        ObjectType: 3
+        guid: 396c9108ce8f8249aadd680eda7d53f4
+      Path: Events\Default Work Unit\Play_Jump
+      maxAttenuation: 0
+      maxDuration: 0.07658333
+      minDuration: 0.07658333
+    - name: Stop_566093__dundalkkirk__landing_softsurface
+      guid: 1e0a1704c59bb247a4d924b0c779aa91
+      id: 1906578348
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 396572dbe92a1a459c2d361c25098fcc
+      - ElementName: Stop_566093__dundalkkirk__landing_softsurface
+        ObjectType: 3
+        guid: 1e0a1704c59bb247a4d924b0c779aa91
+      Path: Events\Default Work Unit\Stop_566093__dundalkkirk__landing_softsurface
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Jump
+      guid: 78b7fee0525a344a8cf7a95f467cc63d
+      id: 1683662908
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 396572dbe92a1a459c2d361c25098fcc
+      - ElementName: Stop_Jump
+        ObjectType: 3
+        guid: 78b7fee0525a344a8cf7a95f467cc63d
+      Path: Events\Default Work Unit\Stop_Jump
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
