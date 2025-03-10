@@ -13,14 +13,16 @@ public class SoundScript : MonoBehaviour
         if (context.performed && !mWalkSource.isPlaying)
         {
             mWalkSource.Play();
+            Debug.Log("Walking 1 key");
         }
         else if (context.performed && mWalkSource.isPlaying)
         {
-
+            Debug.Log("Walking 2 Keys");
         }
         else
         {
             mWalkSource.Stop();
+            Debug.Log("Audio Stops.");
         }
     }
 
@@ -29,6 +31,7 @@ public class SoundScript : MonoBehaviour
         if (context.performed && !mJumpSource.isPlaying)
         {
             mJumpSource.Play();
+            Debug.Log("Jumping");
         }
         else if (context.performed && mJumpSource.isPlaying)
         {

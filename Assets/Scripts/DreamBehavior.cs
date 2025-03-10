@@ -11,6 +11,7 @@ public class DreamBehavior : MonoBehaviour
     public float distanceFromDestination;
     public bool canMove = true;
     public GameObject star;
+    public AudioSource mCatCloud;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -31,6 +32,8 @@ public class DreamBehavior : MonoBehaviour
         if (distanceFromDestination <= 1.2)
         {
             canMove = true;
+            mCatCloud.Play();
+            Debug.Log("Cat Cloud's Moving, Audio should be playing");
         }
     }
 
@@ -54,6 +57,8 @@ public class DreamBehavior : MonoBehaviour
             {
                 SetNewDestination();
                 canMove = false;
+                mCatCloud.Pause();
+                Debug.Log("CatCloud Stops. No More Sounds.");
             }
             else
             {
