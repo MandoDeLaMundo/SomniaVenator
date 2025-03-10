@@ -32,7 +32,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2195897270117677287}
+  m_Father: {fileID: 4142842486838027879}
   m_LocalEulerAnglesHint: {x: 18.378, y: 0, z: 0}
 --- !u!20 &7309973152758829148
 Camera:
@@ -282,6 +282,7 @@ Transform:
   m_Children:
   - {fileID: 5411159603538408315}
   - {fileID: 2195897270117677287}
+  - {fileID: 5227349744754845877}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4371480795286019274
@@ -544,8 +545,6 @@ MonoBehaviour:
   moveDir: {x: 0, y: 0, z: 0}
   Speed: 12.5
   JumpForce: 4
-  HoriRotSpeed: 2
-  VertRotSpeed: 2
   rb: {fileID: 7515739827452293673}
 --- !u!1 &7303757419031908879
 GameObject:
@@ -575,7 +574,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5227349744754845877}
+  m_Children: []
   m_Father: {fileID: 4142842486838027879}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
