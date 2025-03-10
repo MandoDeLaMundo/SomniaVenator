@@ -9,8 +9,8 @@ public class PlayerMovement : MonoBehaviour
     //Vector3 moveDir;
     public Vector3 moveDir;
     Vector3 jumpVec;
-    public float Speed;
-    public float JumpForce;
+    public float Speed = 12.5f;
+    public float JumpForce = 1.6f;
     public Rigidbody rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -38,7 +38,12 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Jump(InputAction.CallbackContext context)
     {
-        jumpVec = new Vector3(0f, 1f, 0f);
+        jumpVec = new Vector3(0f, 1f, 0f) * JumpForce * 2;
         rb.AddForce(jumpVec, ForceMode.Impulse);
+    }
+
+    public void PlayerRotate(InputAction.CallbackContext context)
+    {
+
     }
 }
