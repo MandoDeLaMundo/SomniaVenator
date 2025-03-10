@@ -547,8 +547,6 @@ MonoBehaviour:
   HoriRotSpeed: 2
   VertRotSpeed: 2
   rb: {fileID: 7515739827452293673}
-  x: 0
-  y: 0
 --- !u!1 &7303757419031908879
 GameObject:
   m_ObjectHideFlags: 0
